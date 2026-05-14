@@ -64,6 +64,15 @@ int dir_ctf(){
     enumeration_file << "<h1><font color='red'> Priv-Esc Enumeration  </font></h1>";
     enumeration_file.close();
 
+
+    //create privilege escalation file
+    std::ofstream privesc("privilege-escalation.md");
+    if (!privesc.is_open()){
+        std::cerr << "Error Creating File: " << errno;
+    }
+
+    privesc.close();
+    
     //create checklist file
     std::ofstream checklist("checklist.md");
     if (!checklist.is_open()){
