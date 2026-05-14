@@ -58,10 +58,6 @@ int dir_ctf(){
     enumeration_file << std::endl;
     enumeration_file << std::endl;
     enumeration_file << "<h1><font color='red'> Functionalities </font></h1>";
-    enumeration_file << std::endl;
-    enumeration_file << std::endl;
-    enumeration_file << std::endl;
-    enumeration_file << "<h1><font color='red'> Priv-Esc Enumeration  </font></h1>";
     enumeration_file.close();
 
 
